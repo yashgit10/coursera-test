@@ -1,0 +1,125 @@
+#header-nav {
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand h1 {
+    color: black;
+    margin-left: 10%;
+}
+
+.navbar-brand a:hover,
+.navbar-brand a {
+    text-decoration: none;
+}
+
+#navbarContent {
+    text-align: center;
+    background-color: white;
+}
+
+.nav-item {
+    border: 1px solid black;
+    margin: 0;
+}
+
+h3 {
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+#main-content .container {
+    background-color: gray;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+#main-content h5 {
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+#main-content p {
+    padding: 5%;
+}
+
+/* Media queries for extra small devices (XS) */
+@media (max-width: 767px) {
+    #main-content {
+        align-items: center;
+    }
+
+    #main-content .container {
+        margin-right: 5%;
+        margin-bottom: 30px;
+    }
+
+    .navbar-toggler {
+        margin-left: auto;
+        margin-right: 5%;
+    }
+
+    .navbar-toggler {
+        border: 2px solid black;
+        padding: 5px;
+        outline: none;
+        box-shadow: none;
+    }
+
+    .navbar-toggler:focus,
+    .navbar-toggler:active {
+        outline: none;
+        box-shadow: none;
+    }
+
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='black' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+
+
+    .navbar-toggler[aria-expanded="true"] {
+        border: 2px solid white;
+        outline: none;
+        box-shadow: none;
+    }
+
+    .navbar-toggler[aria-expanded="true"]:focus,
+    .navbar-toggler[aria-expanded="true"]:active {
+        outline: none;
+        box-shadow: none;
+    }
+
+    .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+
+    .navbar-nav {
+        width: 100%;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 10px 0;
+        font-size: 1.2em;
+        color: black;
+    }
+
+    h5 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+}
